@@ -1,0 +1,40 @@
+# Author: Ashley Johnson
+# Date: 11/17/2020
+# Description: Program takes a list of names, a list of employee IDS, a list of salaries, and a
+# list of emails as a parameter then takes the first value of each list and creates an
+# employee object. It does the same for each value to the end of the lists. Program adds
+# the employee objects to a dictionary and returns the dictionary.
+class Employee:
+    """class initializes private data members for an employee's name, ID, salary, and email"""
+
+    def __init__(self, emp_names, emp_ids, emp_sals, emp_emails):
+        self.__emp_names = emp_names
+        self.__emp_ids = emp_ids
+        self.__emp_sals = emp_sals
+        self.__emp_emails = emp_emails
+
+    def get_name(self):
+        return self.__emp_names
+
+    def get_ID_number(self):
+        return self.__emp_ids
+
+    def get_salary(self):
+        return self.__emp_sals
+
+    def get_email_address(self):
+        return self.__emp_emails
+
+
+def make_employee_dict(emp_names, emp_ids, emp_sals, emp_emails):
+    """Function takes a list of employee names, a list of employee IDs, a list of employee
+    salaries, and a list of employee emails as a parameter and creates an employee object with
+    the values of each list. Function adds the employee objects to a dictionary and returns the
+    employee dictionary"""
+    result = {}
+    for i in range(len(emp_names)):
+        emp = Employee(emp_names[i], emp_ids[i], emp_sals[i], emp_emails[i])
+        result[emp_ids[i]] = emp
+    return result
+
+
