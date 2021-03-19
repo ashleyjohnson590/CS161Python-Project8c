@@ -1,0 +1,178 @@
+Assignment 8 Rubric (1)
+Criteria	Ratings	Pts
+Code Style Deduction: Used single letter variable names. Known math symbols are okay. (-2 Points)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+0 / 0 pts
+Code Style Deduction: Did not format code correctly. (Colons, indentation, at least 1 blank line after function/methods/classes, name conventions such as snake_case. Overall.) (-2 Points)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+0 / 0 pts
+Code Style Deduction: Each wrong file/function/class name. (-1 Point each)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+0 / 0 pts
+Code Style Deduction: For each file without required comment headers. (Including inaccurate descriptions.) (-1 Point)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+0 / 0 pts
+Un-covered Material: Used materials not yet covered in the class. (-3 Points)
+0 pts
+Full Marks
+Used only approved materials
+0 pts
+Point Deduction
+Used un-covered materials
+0 / 0 pts
+Code Style Deduction: For each function without a required docstring. (Including inaccurate descriptions.) (-1 Point)
+0 pts
+Full Marks
+Meets style guidelines
+0 pts
+Point Deduction
+Comments
+8c. missing docstring for class methods init, get_name, get_ID, get_salary, get_email
+even small get/set methods need their own docstrings
+-2 / 0 pts
+Project 8a: Correctly accounted for case differences in string.
+4 pts
+Full Marks
+0 pts
+No Marks
+4 / 4 pts
+Project 8a: Correctly ensured that only characters were counted.
+4 pts
+Full Marks
+0 pts
+No Marks
+4 / 4 pts
+Project 8a: Correctly constructed dictionary with only upper case characters found in string as keys.
+6 to >5 pts
+Full Marks
+5 to >0 pts
+Partial Marks
+0 pts
+No Marks
+6 / 6 pts
+Project 8a: Correctly calculated values for each character in dictionary.
+6 to >5 pts
+Full Marks
+5 to >0 pts
+Partial Marks
+0 pts
+No Marks
+6 / 6 pts
+Project 8a DEDUCTION: Problems with function structure causing it not to work properly. (Parameters, etc.) (-6 Points)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Project 8b: Correctly accounted for case differences in strings.
+4 pts
+Full Marks
+0 pts
+No Marks
+4 / 4 pts
+Project 8b: Correctly converted strings to sets of individual words.
+8 to >7 pts
+Full Marks
+7 to >0 pts
+Partial Marks
+0 pts
+No Marks
+8 / 8 pts
+Project 8b: Correctly returned the intersection of those two sets.
+8 to >7 pts
+Full Marks
+7 to >0 pts
+Partial Marks
+0 pts
+No Marks
+8 / 8 pts
+Project 8b DEDUCTION: Problems with function structure causing it not to work properly. (Parameters, etc.) (-6 Points)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Project 8c: Correctly used an init method to create fields for name, id_number, salary, and email_address.
+2 pts
+Full Marks
+0 pts
+No Marks
+2 / 2 pts
+Project 8c: Created getter methods for all fields.
+2 pts
+Full Marks
+0 pts
+No Marks
+2 / 2 pts
+Project 8c: Function properly creates Employee objects by traversing the four parameter lists.
+8 to >7 pts
+Full Marks
+7 to >0 pts
+Partial Marks
+0 pts
+No Marks
+8 / 8 pts
+Project 8c: Function properly adds Employees to dictionary using the id as key.
+8 to >7 pts
+Full Marks
+7 to >0 pts
+Partial Marks
+0 pts
+No Marks
+8 / 8 pts
+Project 8c DEDUCTION: Function parameter receives something other than the required four lists. (-3 Points)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Project 8c DEDUCTION: Function returns something other than a dictionary. (-3 Points)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Project 8c DEDUCTION: Problems with function structure causing it not to work properly. (Parameters, etc.) (-3 Points)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Project 8c DEDUCTION: Problems with class structure causing it not to work properly. (-3 Points)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+Comments
+8c. incorrect variable names for Employee class
+variables should be self._name, self._ID_number, self._salary, self._email_address
+-2 / 0 pts
+Late Project Deduction (within 48 hours)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Deduction: Typos/incorrect formatting (Including extraneous/incorrect print statements). (-6 Points)
+0 pts
+Full Marks
+0 pts
+Point Deduction
+0 / 0 pts
+Total Points: 56
